@@ -42,7 +42,7 @@ h1 {
 }
 
 button {
-  margin: auto;
+  margin: 0;
   text-align: center;
   width: 150px;
   border-radius: 5px;
