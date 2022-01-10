@@ -40,9 +40,9 @@ if (val.value >= 42) {
     `<h3>Com ${parseInt(val.value)} kg seu cão deverá comer
      entre ${eats1.toFixed(2)}kg e ${eats2.toFixed(2)}kg de comida por dia</h3>
     <div class="results">
-        <p><span class="meat"> ${Math.round(30/100*eats1*1000)} a ${Math.round(30/100*eats2*1000)}g </span> de carnes desossadas</p>
-        <p><span class="vegetables">${Math.round(30/100*eats1*1000)}g a ${Math.round(30/100*eats2*1000)}g</span> de vegetais</p>
-        <p><span class="carbs">${Math.round(35/100*eats1*1000)}g a ${Math.round(35/100*eats2*1000)}g</span> de carboidratos</p>
-        <p><span class="innards">${Math.round(5/100*eats1*1000)}g a ${Math.round(5/100*eats2*1000)}g</span> de vísceras</p> 
+        <p><span class="meat"> 🥩 ${Math.round(30/100*eats1*1000)} a ${Math.round(30/100*eats2*1000)}g </span> de carnes desossadas</p>
+        <p><span class="vegetables">🥬 ${Math.round(30/100*eats1*1000)}g a ${Math.round(30/100*eats2*1000)}g</span> de vegetais</p>
+        <p><span class="carbs">🍠 ${Math.round(35/100*eats1*1000)}g a ${Math.round(35/100*eats2*1000)}g</span> de carboidratos</p>
+        <p><span class="innards">🥓 ${Math.round(5/100*eats1*1000)}g a ${Math.round(5/100*eats2*1000)}g</span> de vísceras</p> 
     </div>`
 }
