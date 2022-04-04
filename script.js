@@ -39,7 +39,7 @@ if (val.value >= 42) {
     const newTitle = document.querySelector('.answer');
     newTitle.innerHTML = 
     `<h3>With ${parseInt(val.value)}kg your dog should eat between
-      ${eats1.toFixed(2)}kg e ${eats2.toFixed(2)}kg of fresh food everyday</h3>
+      ${eats1.toFixed(2)}kg and ${eats2.toFixed(2)}kg of fresh food everyday</h3>
     <div class="results">
         <p><span class="meat"> 🥩 ${Math.round(30/100*eats1*1000)} to ${Math.round(30/100*eats2*1000)}g </span> of boneless meat </p>
         <p><span class="vegetables">🥬 ${Math.round(30/100*eats1*1000)}g to ${Math.round(30/100*eats2*1000)}g</span> of vegetables</p>
